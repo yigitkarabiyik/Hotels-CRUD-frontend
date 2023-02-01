@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import {
-  Form,
-  Alert,
   Card,
   Button,
   Row,
@@ -9,9 +7,7 @@ import {
   Image,
   Modal,
 } from 'react-bootstrap'
-import { propTypes } from 'react-bootstrap/esm/Image';
 import { MdClose } from 'react-icons/md';
-import { useHotels } from '../context/HotelsContext';
 
 function Hotel({hotel, changeScore, removeHotel}) {
   const [modalShow, setModalShow] = React.useState(false);

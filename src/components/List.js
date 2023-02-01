@@ -5,14 +5,13 @@ import {
   Col,
 } from 'react-bootstrap'
 import Card from './Card';
-import { useHotels } from '../context/HotelsContext';
 
 function List({hotels, changeScore, removeHotel}) {
 
   return (
     <>
       { hotels.map(hotel => 
-        <Row className='mt-3' key={hotel.create}>
+        <Row className='mt-3' key={hotel.created}>
           <Col>
             <Card
               hotel={hotel}

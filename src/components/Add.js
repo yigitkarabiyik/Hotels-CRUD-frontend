@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 //import { BsCheckLg } from 'react-icons/bs'
 import { BsPlusLg, BsCheckLg } from 'react-icons/bs'
 import {
@@ -9,7 +9,6 @@ import {
   Form,
   Alert,
 } from 'react-bootstrap'
-import { useHotels } from '../context/HotelsContext';
 
 function Add({addHotel}) {
 

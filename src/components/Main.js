@@ -43,7 +43,7 @@ function Main() {
 
   useEffect(() => {
     localStorage.setItem('hotels', JSON.stringify(hotels))
-  })
+  },[hotels])
 
   function compareScoreThenDate(a,b){
     if(sortingDirection === 'increase')
