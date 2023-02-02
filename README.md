@@ -1,21 +1,17 @@
 # Installation
 
-## Node
-```
-mkdir hotels-react
-cd hotels-react
 git clone https://github.com/yigitkarabiyik/hotels-react.git
+cd hotels-react
+
+## With Node
+```
 npm install
 npm start
-
 ```
 
 ## Docker
 
 ```docker
-mkdir hotels-react
-cd hotels-react
-git clone https://github.com/yigitkarabiyik/hotels-react.git
 docker-compose up -d --build
 ```
 
