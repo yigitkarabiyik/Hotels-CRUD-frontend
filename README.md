@@ -1,6 +1,7 @@
 # Installation
 
 git clone https://github.com/yigitkarabiyik/hotels-react.git
+
 cd hotels-react
 
 ## With Node
@@ -9,7 +10,7 @@ npm install
 npm start
 ```
 
-## Docker
+## With Docker
 
 ```docker
 docker-compose up -d --build
